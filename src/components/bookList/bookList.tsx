@@ -1,4 +1,4 @@
-import { Book } from "../types"
+import { Book } from "../../types"
 import BookListElement from "./bookListElement"
 
 interface props {
@@ -7,6 +7,6 @@ interface props {
 
 export default function BookList(props: props) {
     return (
-        props.books.map((book) => <BookListElement book={book} />)
+        props.books.map((book, index) => <BookListElement book={book} key={index} />)
     )
 }

@@ -1,8 +1,11 @@
+import { CssBaseline } from "@mui/material"
 import Router from "./router"
 
 function App() {
-  return (
+  return (<>
     <Router />
+    <CssBaseline />
+  </>
   )
 }
 

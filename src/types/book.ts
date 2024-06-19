@@ -6,6 +6,6 @@ export default interface Book {
     isbn: string
     branch: number
     is_borrowed: boolean
-    borrowed_by: number | null
+    borrowed_by: string | null
     date_borrowed: string | null
 }
