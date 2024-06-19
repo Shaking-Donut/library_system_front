@@ -1,5 +1,5 @@
 import { Logout } from "@mui/icons-material";
-import { Avatar, ButtonBase, Icon, IconButton, Stack, styled } from "@mui/material";
+import { Avatar, IconButton, Stack } from "@mui/material";
 
 function stringToColor(string: string) {
     let hash = 0;
